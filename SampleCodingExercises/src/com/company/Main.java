@@ -11,9 +11,12 @@ public class Main {
         /*boolean wakeUp = BarkingDog.shouldWakeUp(true, -1);
         System.out.println(wakeUp);*/
 
-        boolean number = TeenNumberChecker.hasTeen(22, 23, 34);
+        /*boolean number = TeenNumberChecker.hasTeen(22, 23, 34);
         System.out.println(number);
         boolean teen = TeenNumberChecker.isTeen(15);
-        System.out.println(teen);
+        System.out.println(teen);*/
+
+        boolean palindrome = NumberPalindrome.isPalindrome(101);
+        System.out.println("Is palindrome: " + palindrome);
     }
 }
